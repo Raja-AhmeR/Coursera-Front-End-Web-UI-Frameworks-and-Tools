@@ -1,5 +1,7 @@
 body{
-    background-color: #f1eff3;
+    background-color: #cccdec;
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
 }
 
 .row-header{
@@ -33,12 +35,16 @@ body{
     color: #0F0F0F;
 }
 
-.row-about{
-    margin-top: 50px;
-}
-
 @media (max-width: 575px) {
     .d-xs-none {
         display: none;
     }
+}
+
+.navbar-dark{
+    background-color: #512DAB;
+}
+
+.reservationForm{
+    background-color: rgb(237, 202, 47);
 }
